@@ -41,10 +41,10 @@ class Header extends HTMLElement {
                             <a class="nav-link active smoothScroll" href="Homepage">Home</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="http://localhost:58039/Dashboard.js">Dashboard</a>
+                            <a class="nav-link smoothScroll" href="#">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="http://localhost:58039/trackComplaint">Track Complaint</a>
+                            <a class="nav-link smoothScroll" href="#">Track Complaint</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link smoothScroll" href="LoginPoliceIncharge">Login</a>
