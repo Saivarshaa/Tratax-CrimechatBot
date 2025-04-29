@@ -12,8 +12,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a> Crime Registeration Portal</a>
+            <div class="footer-copyright text-center py-3">© 2025 Copyright:
+                <a>Tratax - The CopBot</a>
             </div>
         </footer>
     <!-- Footer -->

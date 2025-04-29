@@ -40,8 +40,11 @@ class Header extends HTMLElement {
                         <li class="nav-item">
                             <a class="nav-link active smoothScroll" href="Homepage">Home</a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link smoothScroll" href="http://localhost:58039/Dashboard.js">Dashboard</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link smoothScroll" href="#">Track Complaint</a>
+                            <a class="nav-link smoothScroll" href="http://localhost:58039/trackComplaint">Track Complaint</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link smoothScroll" href="LoginPoliceIncharge">Login</a>
@@ -50,12 +53,19 @@ class Header extends HTMLElement {
                             <a class="nav-link smoothScroll" href="#">News</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Emergency Contacts</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Police: 100
+</a>
+                            <a class="dropdown-item" href="#">Ambulance: 102 or 108</a>
+                             <a class="dropdown-item" href="#">Fire Brigade: 101</a>
+                              <a class="dropdown-item" href="#"> Women’s Helpline: 1091</a>
+                               <a class="dropdown-item" href="#">Child Helpline: 1098</a>
+                                <a class="dropdown-item" href="#">Disaster Management Services: 108</a>
+                                 <a class="dropdown-item" href="#">Cyber Crime Helpline: 1930</a>
+                                 <a class="dropdown-item" href="#">National Emergency Number: 112</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                           
                         </li>
                         <li class="register-btn"><a  href="RegisterComplaint" type="button" class="btn btn-primary btn-lg" id="register">Register Complaint</a></li>
                         <li class="register-btn"><a  href="Homepage" type="button" class="btn btn-primary btn-lg" id="signout" style="display:none">Exit Portal</a></li>

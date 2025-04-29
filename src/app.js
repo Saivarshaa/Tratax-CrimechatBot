@@ -17,6 +17,7 @@ import "popper.js";
 import "font-awesome/css/font-awesome.min.css";
 import "normalize.css";
 import $ from "jquery";
+import TrackComplaint from "./component/TrackComplaint";
 
 
 // var CryptoJS = require("crypto-js");
@@ -33,7 +34,7 @@ window.customElements.define("homepage-content", Homepage); // to use <homepage-
 window.customElements.define("acknowledgement-table", Acknowledgement); // to use <acknowledgement-table/>
 window.customElements.define("login-form", LoginForm); // to use <login-form/>
 window.customElements.define("dashboard-auth", Dashboard); // to use <dashboard-auth/>
-//window.customElements.define("track-complaint", TrackComplaint); // to use <track-complaint/>
+window.customElements.define("track-complaint", TrackComplaint); // to use <track-complaint/>
 
 const app = () => {
   document.getElementById("header").innerHTML = `<header-content/>`;
@@ -111,10 +112,9 @@ const app = () => {
                                                                             </div>
                                                                         </div>`;
       break;
-    case "TrackComplaint":
+    case "trackComplaint":
       //Track Complaint
-      document.getElementById("mainContent").innerHTML =
-        "<h1>Track Complaint</h1>";
+      document.getElementById("mainContent").innerHTML = '<track-complaint></track-complaint>';
       break;
     case "Acknowledgement":
       var acknowledgemenData = JSON.parse(sessionStorage.getItem("acknowledgement"));
@@ -147,9 +147,14 @@ const app = () => {
         }
       });
       break;
+   
+
     default:
       //404 not found page Error
-      document.getElementById("mainContent").innerHTML = PageNotFound();
+      const container = document.getElementById("mainContent");
+container.innerHTML = "";
+container.appendChild(PageNotFound());
+
   }
 };
 //initilizing app

@@ -36,31 +36,18 @@ class Homepage extends HTMLElement{
             </div>
 
 
-            <div id="complaint-card" class="card">
-                <div class="card-body" style="padding: 10px;">
-                <h2 class="card-title">Registering complaints to Chabot</h2>
-                <hr>
-                <p class="card-text"><h2 style="margin:5px 0px">Key Features</h2><br>
-           <strong>    * OTP verification for registering users<br>
-               * End to End Data Encryption for Crime Registeration<br>
-               * validation for user responses<br>
-               * Decision tree for questioning<br>
-               * Machine Learning implemented (Chabot can be trained by adding new dataset of crime, no explicit programming needed)<br>
-               * NLP (Natural Language Processing) implemented for processing user responses and validation purpose.<br>
-               * Crime Registering Anonymously<br>
-               * Stores the IP address and Some Information about device<br></strong>
-
-            <h2 style="margin:20px 0px 0px 0px">Dataset for Crime Available in Application</h2>
-
-           <strong>     * Ransomware<br>
-                * Phishing<br>
-                * Cell Phone Missing / Theft<br>
-                * Vehical Missing / Theft<br>
-                * more crime dataset can be added, Chabot automatically use it learn for themselves.<br>  </strong>  
-             </p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                </p>
+            <section style="max-width: 900px; margin: auto; padding: 20px; background-color: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; border-left: 5px solid #7f00ff;">
+  <h4 style="color: #333;">🔍 About the Platform</h4>
+  <p style="font-size: 16px; line-height: 1.6;">
+    This platform is designed to simplify and enhance communication between citizens and law enforcement.
+    It provides a secure and easy way to file complaints, track case statuses, and receive updates without needing to visit a police station.
+    The system ensures transparency, faster responses, and builds public trust by offering real-time complaint handling and digital record management.
+  </p>
+  <p style="font-size: 16px; line-height: 1.6;">
+    With categorized complaint tracking, encrypted data handling, and potential future integrations like chatbot-based reporting and blockchain-based logs,
+    the platform aims to bring efficiency and accountability to crime reporting processes.
+  </p>
+</section>
                     <div  style="padding-bottom: 30px; padding-top: 20px;">
                         <a  href="#" type="button" class="btn btn-primary btn-lg">Learn More</a>
                         <a   href="RegisterComplaint" type="button" class="btn btn-primary btn-lg">Register Complaint</a>

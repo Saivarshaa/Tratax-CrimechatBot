@@ -27,8 +27,8 @@ class Chatbot extends HTMLElement{
         this.innerHTML =`<!---Chatbot UI COde follows-->
                         <div class="chat-app">
                             <div class="chat-title">
-                                <h1>ChatBot X</h1>
-                                <h2>Description sub-notes</h2>
+                                <h1>Tratax</h1>
+                                <h2>Talk,Trust,Take Action</h2>
                                 <figure class="avatar">
                                     <img src="${chatbot_avatar}" />
                                 </figure>

@@ -4,9 +4,7 @@
   "description": "Efficient and user-friendly Chabot Based Crime Registration & Crime Awareness System ",
   "main": "app.js",
   "scripts": {
-   
     "start": "rimraf ./anticrimechatbot && rimraf ./.cache && parcel public/index.html --out-dir anticrimechatbot -p 3000",
-
     "build": "parcel build public/index.html --out-dir dist --public-url ./",
     "clear": "rm -rf ./anticrimechatbot && rm -rf ./.cache",
     "destroy": "rm -rf ./dist"
@@ -23,6 +21,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "chart.js": "^4.4.9",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "dropzone": "^5.7.2",

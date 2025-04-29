@@ -26,7 +26,7 @@ class Acknowledgement extends HTMLElement{
         </style>
         <table>
            <tr>
-              <th colspan="2" text-align: center>CCTNS CITIZEN PORTAL- ONLINE COMPLAINT/INFORMATION ACKNOWLEDGEMENT</th>
+              <th colspan="2" text-align: center>TRATAX- ONLINE COMPLAINT/INFORMATION ACKNOWLEDGEMENT</th>
            </tr>
            <tr>
               <td>Complaint Reference Number</td>
