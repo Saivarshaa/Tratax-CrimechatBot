@@ -12,15 +12,14 @@ class Header extends HTMLElement {
                 <div class="row">
 
                     <div class="col-md-4 col-sm-5">
-                        <img src="${header_image}" width="170" height="65">
+                        <img src="${header_image}" width="150" height="150">
                     </div>
 
                     <div class="col-md-8 col-sm-7 text-align-right">
                         <span class="phone-icon"><i class="fa fa-phone"></i> <a href="#">Contact</a></span>
                         <span class="date-icon"><i class="fa fa-calendar-plus-o "></i><a href="#"> Helpline</a></span>
-                        <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></span>
+                        <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">trataxthecopbot@company.com</a></span>
                     </div>
-
                 </div>
             </div>
         </header>
@@ -30,7 +29,7 @@ class Header extends HTMLElement {
 
         <nav id="Navbar" class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <a class="navbar-brand" href="#">A Crime Registering Chatbot (Prototype)</a>
+            <a class="navbar-brand" href="#">Tratax - The CopBot</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
